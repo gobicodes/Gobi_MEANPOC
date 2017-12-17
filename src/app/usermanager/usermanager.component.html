@@ -1,0 +1,9 @@
+<!-- <div class="row" id = "formheader">User Manager</div> -->
+<div class="tableStyle">
+    <ng2-smart-table
+    [settings]="settings"
+    [source]="sourcedata"
+    (deleteConfirm)="onDeleteConfirm($event)"
+    (editConfirm)="onSaveConfirm($event)"
+    (createConfirm)="onCreateConfirm($event)"></ng2-smart-table>
+</div>

@@ -1,0 +1,14 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "gcc",
+        "password": "password",
+        "database": "wu_gcc"
+    },
+    "server": {
+        "port": 3000,
+        "host": "localhost",
+        "jwtSecret": "random-secret-password",
+        "jwtExpiration": "1h"
+    }
+}
